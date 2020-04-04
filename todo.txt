@@ -1,0 +1,12 @@
+npm install redux redux-thunk react-redux bootstrap react-bootstrap history firebase
+
+
+phoneNumber: "0701819289841"
+experiences: "One year of medical school before changing career path"
+availabillity: "I work a full time job though very flexible"
+email: "marcustest@mail.se"
+name: "Marcus Testström"
+location: { city: "Borås", country: "Sweden" }
+testsCompleted: "Disease control"
+preferredTasks: "Helping with testing"
+key: "YVyaQHs420FNErX9mHc6"

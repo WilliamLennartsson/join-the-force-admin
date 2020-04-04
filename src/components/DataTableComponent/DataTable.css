@@ -1,0 +1,85 @@
+.DataTable_wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.DataTable_headerRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 5rem;
+}
+
+.DataTable_headerCell {
+  flex: 1;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.DataTable_grid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.DataTable_row {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+.DataTable_cell {
+  flex: 1;
+  display: flex;
+  border: 2px solid rgba(131, 135, 135, 0.386);
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+}
+
+.DataTable_cellData {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.DataTable_actionButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.DataTables_actionButton_icon {
+  background-color: rgba(40, 40, 40, 0.2);
+  height: 2em;
+  width: 2em;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+.DataTable_columnTitle {
+}
+
+.DataTable_tag {
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: rgba(0, 200, 30, 0.3);
+  border: 1px solid black;
+}
+
+.DataTable_location {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}

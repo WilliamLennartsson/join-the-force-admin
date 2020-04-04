@@ -1,0 +1,25 @@
+.Dashboard_panel_container {
+  display: flex;
+  flex: 1;
+  /* background-color: #431c63; */
+  height: 5em;
+  flex-flow: row;
+  border-bottom: 2px solid #431c63;
+}
+
+.Dashboard_panel_section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+.Dashboard_panel_section_text {
+  align-self: center;
+  color: #431c63;
+}
+
+.Dashboard_panel_search {
+  flex: 1;
+  margin: 1rem;
+}
